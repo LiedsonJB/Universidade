@@ -1,26 +1,24 @@
-# Compilados e objetos
-*.o
-*.obj
-*.exe
-*.out
-*.class
-*.jar
-*.war
-*.pyc
-__pycache__/
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# IDE e editores
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Sistemas
+# Ambiente / SO
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
 
-# Pastas de build (se tiver)
-build/
+# Pastas de build/compilação
 dist/
+build/
 target/
+*.class
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+Arduino/arduino-1.8.19-windows.exe
