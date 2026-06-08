@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1715020238 source:g:\universidade\aed\exercicios\listas\funcao.c
+	"funcao.h"
+
+1715019620 g:\universidade\aed\exercicios\listas\funcao.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1715019928 source:g:\universidade\aed\exercicios\listas\main.c
+	"funcao.h"
+
+1715020238 source:e:\universidade\aed\exercicios\listas\funcao.c
+	"funcao.h"
+
+1715019620 e:\universidade\aed\exercicios\listas\funcao.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1715020522 source:e:\universidade\aed\exercicios\listas\main.c
+	"funcao.h"
+

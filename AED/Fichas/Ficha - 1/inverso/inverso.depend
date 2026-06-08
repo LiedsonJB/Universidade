@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1709571268 source:d:\aed\fichas\ficha - 1\inverso\funcao.c
+	"inverso.h"
+	<stdio.h>
+
+1709570990 d:\aed\fichas\ficha - 1\inverso\inverso.h
+
+1709571142 source:d:\aed\fichas\ficha - 1\inverso\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inverso.h"
+
+1709571268 source:e:\aed\fichas\ficha - 1\inverso\funcao.c
+	"inverso.h"
+	<stdio.h>
+
+1709570990 e:\aed\fichas\ficha - 1\inverso\inverso.h
+
+1709571142 source:e:\aed\fichas\ficha - 1\inverso\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inverso.h"
+

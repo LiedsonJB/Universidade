@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1716374655 source:c:\users\aluno.isecmar-info-03\desktop\tp2_liedsonaraujo\main.c
+	"biblioteca.h"
+
+1716374401 c:\users\aluno.isecmar-info-03\desktop\tp2_liedsonaraujo\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716375449 source:c:\users\aluno.isecmar-info-03\desktop\tp2_liedsonaraujo\funcoes.c
+	"biblioteca.h"
+

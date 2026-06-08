@@ -1,0 +1,84 @@
+//Ficha Pratica 2
+
+Exercicio 1
+4 -> int, 4.0 -> real, '4' -> char, "4" -> string
+
+Exercicio 2
+Bem-Vindo!
+Esta é uma arte de impressão emprogramação Java
+Maisparaseguir.
+
+Exercicio 3
+nao a erro no codigo mas o \n mas o \n nao muda nada no codigo ele e redondante
+
+Exercicio 4
+a saida sera 50 mais 25 é 5025 porque nao esta utilizando () e a funcao println consedere que foi uma conquetanaco de string
+
+Exercicio 5
+count tera o valor final de 10
+
+Exercicio 6
+resultado final da area e de 0.157
+
+Exercicio 7
+resultado final de sum e de 1000
+
+Exercicio 8
+i--;
+--i:
+i-=1;
+
+Exercicio 9
+a) iResult = 5
+b) fResult = 5.0
+c) iResult = 3
+d) fResult = 3.4
+e) fResult = 3.4
+f) fResult = 1.33
+g) iResult = 0
+h) fResult = 0.625
+i) fResult = 0.625
+j) fResult = 0.0
+k) iResult = 3
+l) iResult = 3
+m) fResult = 0.0
+n) iResult = 2
+o) iResult = 6
+p) iResult = 25
+q) iResult = 0
+
+Exercicio 10
+a) um inteiro (int)
+b) um real (float)
+c) um carater (char)
+
+Exercicio 11
+Erro de compilacao e que os valores estao atribuidos errados o x e um inteiro e esta atribuido um real
+
+Exercicio 12
+ticket cinemaTicket, cinema_ticket, Ticket
+
+Exercicio 13
+erros encontrados faltas de "" uso de variaveis nao declaradas, lendo valores errados, difinicao de const nao inicializado entre outros
+codigo corregido:
+
+import java.util.Scanner;
+
+public class SomeProg{
+	
+	public static void main(String[] args){
+		
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("YEAR: ");
+		final int YEAR = keyboard.nextInt();
+
+		int age, bornIn;
+
+		System.out.print("How old are you this year? ");
+		age = keyboard.nextInt();
+		bornin = YEAR - age;	
+		System.out.println("I think you were born in " + bornin);
+	}
+}
+	
+	}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registo de Consumo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <nav id="menu">
+            <div style="display: flex;">
+                <img src="galary/electra.jpg" alt="" style="width: 50px;">
+                <h1>Electra SA</h1>
+            </div>
+            <div class="space">
+                <ul>
+                    <a href="">
+                        <li>Fazer Registo</li>
+                    </a>
+                    <a href="Login.html">
+                        <li>Login</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="centro">
+
+        <h1 style="margin-top: 55px; text-align: center; margin-bottom: -10px;">Leitura de Consumo de agua e luz</h1>
+
+        <form action="">
+            <div>
+                <div class="img"></div>
+                <p style="margin-top: 10px;color: #000;"><b style="color: #000;">Cliente: </b><u
+                        style="color: #000;">User@gmail.com</u></p>
+                <p style="margin-top: 10px;color: #000;"><b style="color: #000;">Morada: </b style="color: #000;"><u
+                        style="color: #000;">Ribeirinha</u></p>
+                <p style="margin-top: 10px;color: #000;"><b style="color: #000;">Periodo de Faturamento: </b><br>
+                <div style="display: grid;">
+                    <b><u style="color: #000;">Inicio:</u></b><input type="date"
+                        style="width: 150px; height: 28px; margin-top: 5px;color: #000;"> <br>
+                    <b><u style="color: #000;">Fim:</u></b><input type="date"
+                        style="width: 150px; margin-bottom: 5px; height: 28px; margin-top: 5px;color: #000;">
+                </div>
+                </p>
+            </div>
+            <div class="grid">
+                <label for="ID_Consumidor">ID_Consumidor/Nome:</label>
+                <input type="text" name="ID_Consumidor" id=" ID_Consumidor" placeholder="ID_Consumidor/Nome">
+                <label for="Agua">Quantidade de agua:</label>
+                <input type="number" name="Agua" id="Agua" placeholder=" Quantidade de Agua">
+                <label for="Luz">Quantidade de Luz:</label>
+                <input type="number" name="Luz" id="Luz" placeholder=" Quantidade de Luz">
+
+                <button id="btn">Submeter Dados</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div style="display: block; justify-content: center;">
+            <p style="margin-top: 50px;">
+                &copy; Electra SA 2024
+            <ul style="text-align: center; display: block;">
+                <li>Liedson Gomes Araújo</li>
+                <li>LEIT</li>
+                <li>2º ano</li>
+            </ul>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

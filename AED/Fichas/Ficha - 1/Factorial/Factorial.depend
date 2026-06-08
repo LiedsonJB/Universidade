@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1709115856 source:e:\aed\factorial\fact.c
+	"fact.h"
+
+1709116368 e:\aed\factorial\fact.h
+
+1709116342 source:e:\aed\factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"fact.h"
+
+1709116342 source:d:\aed\factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"fact.h"
+
+1709116368 d:\aed\factorial\fact.h
+

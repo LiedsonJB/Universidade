@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1710425636 source:e:\aed\fichas\ficha - 2\soma im\main.c
+	<stdio.h>
+	<stdlib.h>
+	"soma.h"
+
+1710425670 e:\aed\fichas\ficha - 2\soma im\soma.h
+

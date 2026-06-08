@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1709567214 source:d:\aed\fichas\ficha - 1\potencia_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"potencia_2.h"
+
+1709567060 d:\aed\fichas\ficha - 1\potencia_2\potencia_2.h
+
+1709571494 source:d:\aed\fichas\ficha - 1\potencia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"potencia.h"
+
+1709567912 d:\aed\fichas\ficha - 1\potencia\potencia.h
+
+1709571474 source:d:\aed\fichas\ficha - 1\potencia\funcao.c
+	"potencia.h"
+
+1709571474 source:e:\aed\fichas\ficha - 1\potencia\funcao.c
+	"potencia.h"
+
+1709567912 e:\aed\fichas\ficha - 1\potencia\potencia.h
+

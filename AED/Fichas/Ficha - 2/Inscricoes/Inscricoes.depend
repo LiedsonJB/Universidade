@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1710929322 source:e:\aed\fichas\ficha - 2\inscricoes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inscricao.h"
+
+1710930504 e:\aed\fichas\ficha - 2\inscricoes\inscricao.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1710927828 source:e:\aed\fichas\ficha - 2\inscricoes\inscricao.c
+	"inscricao.h"
+

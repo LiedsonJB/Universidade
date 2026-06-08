@@ -1,0 +1,75 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: solid black;
+    margin: 10px 10px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+header{
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    margin: 15px 45px;
+}
+button{
+    background-color: black;
+    color: white;
+}
+#preco{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+img{
+    width: 110px;
+    height: auto;
+}
+#entrega{
+    color: #a09e9e;
+    margin-bottom: 25px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(0, 255, 21);
+    font-weight: bold;
+    font-style: italic;
+   font-size: 20px;
+}
+
+h3{
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: aqua;
+    colar: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+button:visited{
+    border: solid;
+    background-color: #a09e9e;
+    color: black;
+}
+
+button:active{
+    color: red;
+}

@@ -1,0 +1,64 @@
+.container{
+    background-color: #eee;
+    padding: 5px;
+    display: grid;/*quando criamos um grid ela cria numerando cada linha e coluna comecando em 1*/
+    grid-template-columns: auto 1fr ; /*criar colunas*/
+    grid-template-rows: auto auto 1fr auto;/*criar linhas*/
+
+    /*organiza os elementos de acordo como esta organizado depois em cada elemento colocamos o grid-area com o nome correspondente*/
+    grid-template-areas: "header header"
+                          "menu1 content"
+                          "menu2 content"
+                          "menu2 footer";
+
+}
+
+.item{
+    color: #777;
+    text-align: center;
+    margin: 2px;
+    padding: 0.2em;
+    color: black;
+}
+/*forma de colocar o div com grid-column-end ou start o mesmo para row*/
+.header{
+    background-color: green;
+    grid-area: header;
+    /*grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;*/
+}
+/*tambem podemos utilizar apenas o grid-row com onde comeca/termina*/
+.menu1{
+    background-color: burlywood;
+    /*grid-column: 1;
+    grid-row: 2;*/
+    grid-area: menu1;
+    height: 3em;
+}
+
+.menu2{
+    background-color: yellow;
+    /*grid-column: 1;
+    grid-row: 3 / 5;*/
+    grid-area: menu2;
+}
+
+
+.content{
+    background-color: rgb(222, 211, 17, 0.904);
+    grid-area: content;
+    /*grid-column: 2;
+    grid-row: 2;
+    grid-row: 2 / span 2;*//*utilizamos span pa estender para linha ou colunas*/
+    height: 10em;
+}
+
+.footer{
+    background-color: rgb(255, 0, 0, 0.613);
+    grid-area: footer;
+    /*grid-column: 2;/*se fcar so assim comeca em 2 vai ate o final
+    grid-row: 4;*/
+}
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1710344456 source:d:\aed\fichas\ficha - 2\matriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matriz.h"
+
+1710344220 d:\aed\fichas\ficha - 2\matriz\matriz.h
+
+1710421926 source:e:\aed\fichas\ficha - 2\matriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matriz.h"
+
+1710349030 e:\aed\fichas\ficha - 2\matriz\matriz.h
+
+1710422266 source:e:\aed\fichas\ficha - 2\matriz\matriz.c
+	"matriz.h"
+	<stdlib.h>
+	<stdio.h>
+

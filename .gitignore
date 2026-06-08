@@ -1,0 +1,26 @@
+# Compilados e objetos
+*.o
+*.obj
+*.exe
+*.out
+*.class
+*.jar
+*.war
+*.pyc
+__pycache__/
+
+# IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistemas
+.DS_Store
+Thumbs.db
+
+# Pastas de build (se tiver)
+build/
+dist/
+target/

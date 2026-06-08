@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1712141708 source:f:\universidade\aed\fichas\ficha - 3\bubble_inteiros\funcao.c
+	"funcao.h"
+
+1712140672 f:\universidade\aed\fichas\ficha - 3\bubble_inteiros\funcao.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1712141868 source:f:\universidade\aed\fichas\ficha - 3\bubble_inteiros\main.c
+	"funcao.h"
+
+1712683208 source:g:\universidade\aed\fichas\ficha - 3\bubble_inteiros\funcao.c
+	"funcao.h"
+
+1712683078 g:\universidade\aed\fichas\ficha - 3\bubble_inteiros\funcao.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1712409300 source:g:\universidade\aed\fichas\ficha - 3\bubble_inteiros\main.c
+	"funcao.h"
+
+1712741376 source:e:\universidade\aed\fichas\ficha - 3\bubble_inteiros\funcao.c
+	"funcao.h"
+
+1712742432 e:\universidade\aed\fichas\ficha - 3\bubble_inteiros\funcao.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1712741710 source:e:\universidade\aed\fichas\ficha - 3\bubble_inteiros\main.c
+	"funcao.h"
+

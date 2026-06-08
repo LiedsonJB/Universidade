@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1709578346 source:d:\aed\fichas\ficha - 1\ackermann\ackermann.c
+	"Ackermann.h"
+
+1709578346 d:\aed\fichas\ficha - 1\ackermann\ackermann.h
+
+1709578410 source:d:\aed\fichas\ficha - 1\ackermann\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ackermann.h"
+

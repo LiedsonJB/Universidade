@@ -1,0 +1,71 @@
+
+-- Ficha 02 - Comandos SQL
+
+-- 1. Criação da base de dados e tabelas
+CREATE DATABASE loja_computadores;
+USE loja_computadores;
+
+CREATE TABLE Fabricantes (
+    Codigo INT PRIMARY KEY,
+    Nome VARCHAR(50)
+);
+
+CREATE TABLE Produtos (
+    Codigo INT PRIMARY KEY,
+    Nome VARCHAR(50),
+    Preco DECIMAL(10, 2),
+    Fabricante INT,
+    FOREIGN KEY (Fabricante) REFERENCES Fabricantes(Codigo)
+);
+
+-- 2. Inserção de dados nas tabelas
+
+-- Tabela Fabricantes
+INSERT INTO Fabricantes (Codigo, Nome) VALUES (1, 'Sony');
+INSERT INTO Fabricantes (Codigo, Nome) VALUES (2, 'Creative Labs');
+INSERT INTO Fabricantes (Codigo, Nome) VALUES (3, 'Hewlett-Packard');
+INSERT INTO Fabricantes (Codigo, Nome) VALUES (4, 'Iomega');
+INSERT INTO Fabricantes (Codigo, Nome) VALUES (5, 'Fujitsu');
+INSERT INTO Fabricantes (Codigo, Nome) VALUES (6, 'Winchester');
+
+-- Tabela Produtos
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (1, 'Hard drive', 240, 5);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (2, 'Memory', 120, 6);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (3, 'ZIP drive', 150, 4);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (4, 'Floppy disk', 4, 6);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (5, 'Monitor', 240, 1);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (6, 'DVD drive', 180, 2);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (7, 'CD drive', 90, 2);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (8, 'Printer', 270, 3);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (9, 'Toner cartridge', 66, 3);
+INSERT INTO Produtos (Codigo, Nome, Preco, Fabricante) VALUES (10, 'DVD burner', 180, 2);
+
+-- 4. Selecione os nomes de todos os produtos da loja.
+SELECT Nome FROM Produtos;
+
+-- 5. Selecione os nomes e preços de todos os produtos da loja.
+SELECT Nome, Preco FROM Produtos;
+
+-- 6. Selecione o nome e o preço do produto mais barato.
+SELECT Nome, Preco FROM Produtos ORDER BY Preco ASC LIMIT 1;
+
+-- 7. Selecione o nome dos produtos com preço menor ou igual a 200.
+SELECT Nome FROM Produtos WHERE Preco <= 200;
+
+-- 8. Selecione todos os produtos com preço entre 60 e 120.
+SELECT * FROM Produtos WHERE Preco BETWEEN 60 AND 120;
+
+-- 9. Seleciona todos os produtos que contêm a nome “drive”;
+SELECT * FROM Produtos WHERE Nome LIKE '%drive%';
+
+-- 10. Selecione todos os produtos que terminam com a letra “r”
+SELECT * FROM Produtos WHERE Nome LIKE '%r';
+
+-- 11. Atualize o nome do produto 8 para "Impressora Laser".
+UPDATE Produtos SET Nome = 'Impressora Laser' WHERE Codigo = 8;
+
+-- 12. Aplique desconto de 10% em todos os produtos.
+UPDATE Produtos SET Preco = Preco * 0.90;
+
+-- 13. Aplique um desconto de 10% em todos os produtos com preço maior ou igual a 120.
+UPDATE Produtos SET Preco = Preco * 0.90 WHERE Preco >= 120;

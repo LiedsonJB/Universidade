@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1709576092 source:d:\aed\fichas\ficha - 1\mdc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mdc.h"
+
+1709576092 d:\aed\fichas\ficha - 1\mdc\mdc.h
+
+1709576168 source:d:\aed\fichas\ficha - 1\mdc\funcao.c
+	"mdc.h"
+

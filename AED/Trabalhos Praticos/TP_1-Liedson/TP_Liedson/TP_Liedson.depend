@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1711535705 source:c:\users\aluno.isecmar-info-03\desktop\tp_1-liedson\tp_liedson\funcao.c
+	"funcao.h"
+
+1711535644 c:\users\aluno.isecmar-info-03\desktop\tp_1-liedson\tp_liedson\funcao.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1711535845 source:c:\users\aluno.isecmar-info-03\desktop\tp_1-liedson\tp_liedson\main.c
+	"funcao.h"
+
+1711563290 source:f:\universidade\aed\tp_1-liedson\tp_liedson\main.c
+	"funcao.h"
+
+1711535646 f:\universidade\aed\tp_1-liedson\tp_liedson\funcao.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1711556968 source:f:\universidade\aed\tp_1-liedson\tp_liedson\funcao.c
+	"funcao.h"
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1709575548 source:d:\aed\fichas\ficha - 1\somatorio\funcao.c
+	"somatorio.h"
+
+1709575548 d:\aed\fichas\ficha - 1\somatorio\somatorio.h
+
+1709575570 source:d:\aed\fichas\ficha - 1\somatorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"somatorio.h"
+

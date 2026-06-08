@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1718480657 source:c:\users\pk_fortes\onedrive\ambiente de trabalho\projetofinal_aed\funtions.c
+	"Funtions.h"
+
+1718479240 c:\users\pk_fortes\onedrive\ambiente de trabalho\projetofinal_aed\funtions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1718480709 source:c:\users\pk_fortes\onedrive\ambiente de trabalho\projetofinal_aed\main.c
+	"Funtions.h"
+

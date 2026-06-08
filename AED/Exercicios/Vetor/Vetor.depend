@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1709139408 source:e:\aed\vetor\escrever.c
+	"vetor_10.h"
+	<stdio.h>
+
+1709132764 e:\aed\vetor\vetor_10.h
+
+1709117926 source:e:\aed\vetor\ler.c
+	"vetor_10.h"
+	<stdio.h>
+
+1709139512 source:e:\aed\vetor\main.c
+	<stdio.h>
+	"vetor_10.h"
+
+1709132750 source:d:\aed\vetor\main.c
+	<stdio.h>
+	"vetor_10.h"
+
+1709132764 d:\aed\vetor\vetor_10.h
+
+1709117926 source:d:\aed\vetor\ler.c
+	"vetor_10.h"
+	<stdio.h>
+
+1709133508 source:d:\aed\vetor\escrever.c
+	"vetor_10.h"
+	<stdio.h>
+

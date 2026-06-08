@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1709574670 source:d:\aed\fichas\ficha - 1\vinverso\escrever.c
+	<stdio.h>
+	"escrever.h"
+
+1709574670 d:\aed\fichas\ficha - 1\vinverso\escrever.h
+
+1709574670 source:d:\aed\fichas\ficha - 1\vinverso\ler.c
+	<stdio.h>
+	"ler.h"
+
+1709574670 d:\aed\fichas\ficha - 1\vinverso\ler.h
+
+1709574854 source:d:\aed\fichas\ficha - 1\vinverso\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ler.h"
+	"escrever.h"
+	"meu.h"
+
+1709572974 d:\aed\fichas\ficha - 1\vinverso\meu.h
+
+1709574670 source:d:\aed\fichas\ficha - 1\vinverso\secundario.c
+	"meu.h"
+	"ler.h"
+	"escrever.h"
+
+1710423580 source:e:\aed\fichas\ficha - 1\vinverso\escrever.c
+	<stdio.h>
+	"escrever.h"
+
+1710423470 e:\aed\fichas\ficha - 1\vinverso\escrever.h
+
+1710423444 source:e:\aed\fichas\ficha - 1\vinverso\ler.c
+	<stdio.h>
+	"ler.h"
+
+1710423470 e:\aed\fichas\ficha - 1\vinverso\ler.h
+
+1710423554 source:e:\aed\fichas\ficha - 1\vinverso\main.c
+	<stdio.h>
+	<stdlib.h>
+	"escrever.h"
+	"ler.h"
+
+1709572974 e:\aed\fichas\ficha - 1\vinverso\meu.h
+
+1709574670 source:e:\aed\fichas\ficha - 1\vinverso\secundario.c
+	"meu.h"
+	"ler.h"
+	"escrever.h"
+

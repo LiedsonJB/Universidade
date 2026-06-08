@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+.outer{
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+
+.inner{
+    width: 10%;
+    height: 67%;
+    background: red;
+}
+
+.absoluto{
+    font-size: 32px;
+}
+
+.relativo{
+    font-size: 2em;
+}
+
+div{
+    font-size: 10px;
+}
+
+.principal{
+    background: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+.info{
+    background: blue;
+    height: 43vh;
+    width: 54vw;
+}
+
+.navbar{
+    background-color: aquamarine;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+.main{
+    background-color: brown;
+    height: 100vh;
+}

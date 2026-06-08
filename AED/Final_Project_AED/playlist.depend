@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1718559082 source:c:\users\aluno\desktop\final_project_aed\funtions.c
+	"Funtions.h"
+
+1718559834 h"
+
+1718558003 c:\users\aluno\desktop\final_project_aed\funtions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+
+1718558004 >
+
+1718559833 source:c:\users\aluno\desktop\final_project_aed\main.c
+	"Funtions.h"
+
+1763651642 source:c:\users\lieds\onedrive\desktop\my pen\universidade\aed\final_project_aed\funtions.c
+	"Funtions.h"
+
+1718558004 c:\users\lieds\onedrive\desktop\my pen\universidade\aed\final_project_aed\funtions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+
+1718559834 source:c:\users\lieds\onedrive\desktop\my pen\universidade\aed\final_project_aed\main.c
+	"Funtions.h"
+
+1718559084 source:/run/media/liedson/Windows/Users/lieds/OneDrive/Desktop/My pen/Universidade/AED/Final_Project_AED/Funtions.c
+	"Funtions.h"
+
+1718558004 /run/media/liedson/Windows/Users/lieds/OneDrive/Desktop/My pen/Universidade/AED/Final_Project_AED/Funtions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+
+1718559834 source:/run/media/liedson/Windows/Users/lieds/OneDrive/Desktop/My pen/Universidade/AED/Final_Project_AED/main.c
+	"Funtions.h"
+

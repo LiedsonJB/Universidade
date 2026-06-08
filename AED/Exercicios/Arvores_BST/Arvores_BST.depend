@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1716978163 source:c:\emu8086\examples\arvores_bst\main.c
+	"biblioteca.h"
+
+1716977783 c:\emu8086\examples\arvores_bst\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+
+1716977814 source:c:\emu8086\examples\arvores_bst\funcoes.c
+	"biblioteca.h"
+
+1716978164 source:f:\universidade\aed\exercicios\arvores_bst\main.c
+	"biblioteca.h"
+
+1716977784 f:\universidade\aed\exercicios\arvores_bst\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+
+1716980980 source:f:\universidade\aed\exercicios\arvores_bst\funcoes.c
+	"biblioteca.h"
+
+1751454543 source:c:\users\lieds\onedrive\desktop\my pen\universidade\aed\exercicios\arvores_bst\funcoes.c
+	"biblioteca.h"
+
+1751454485 c:\users\lieds\onedrive\desktop\my pen\universidade\aed\exercicios\arvores_bst\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+
+1751454433 source:c:\users\lieds\onedrive\desktop\my pen\universidade\aed\exercicios\arvores_bst\main.c
+	"biblioteca.h"
+

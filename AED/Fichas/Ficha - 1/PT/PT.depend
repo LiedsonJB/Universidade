@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1709576998 source:d:\aed\fichas\ficha - 1\pt\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pt.h"
+
+1709577368 d:\aed\fichas\ficha - 1\pt\pt.h
+
+1709577352 source:d:\aed\fichas\ficha - 1\pt\funcaopt.c
+	"pt.h"
+	<stdio.h>
+

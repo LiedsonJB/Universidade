@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&family=Google+Sans+Text:wght@400;700&display=swap');
+
+
+body{
+    font-family: "Google Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FBF6ED;
+
+}
+
+/*Header*-------------------------------------------------------------*/
+header{
+    display: flex;
+    position: absolute;
+    position: fixed;
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    
+    opacity: 0.5;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}   
+
+.nav2{
+    justify-content: right;
+}
+
+.nav2 ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 8rem;
+}
+
+.nav2 li{
+    margin: 0 20px;
+}
+
+.nav2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.4s;
+}
+.nav2 a:hover{
+    color: #8C5A09;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.nav1{
+   margin-left: 10rem;
+}
+
+.nav1 img{
+    width: 8rem;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.nav1 img:hover{
+    width:9rem;
+}
+
+
+/*imagem*-------------------------------------------------------------*/
+.imagem{
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*Conteudo abaixo-------------------------------------------------------------*/
+.content{
+    display: flex;
+    gap: 10rem;
+    justify-content:center ;
+    align-items: center;
+}
+/*Texto*------------------------------*/
+.content .left{
+    flex: 1;
+    margin-left: 10rem;
+    
+}
+
+h1{
+    font-size: 64px;
+    color: #623F06;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 24px;
+    font-family: "Google Sans Text", sans-serif;
+}
+
+/*botao------------------------------*/
+.content .right{
+    flex: 1;
+    
+}
+
+button{
+    background-color: #623F06;
+    color: white;
+    width: 370px;
+    height: 90px;
+    border: none;
+    border-radius: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+   
+}
+button:hover{
+    width: 380px;
+    height: 100px;
+    background-color: #623F06;
+}
+
+
+/*Responsividade-------------------------------------------------------------*/
+@media (max-width: 1102px) {
+    .content {
+        flex-direction: column; /* Flex-direction coluna para telas até 375px */
+        gap: 0px;
+    }
+    .content .left{
+        margin: 5rem;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 760px) {
+    .imagem{
+        height: 50vh;
+    }
+    .nav2 ul{
+        margin-right: 1rem;
+    }
+    .nav2 a{
+        font-size: 1rem;
+    }
+    .nav2 a:hover{
+        font-size: 2rem;
+    }
+    .nav1{
+        margin-left: 3rem;
+    }
+    
+}
+
+
+

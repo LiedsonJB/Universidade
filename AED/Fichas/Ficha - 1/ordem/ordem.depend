@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1709569626 source:d:\aed\fichas\ficha - 1\ordem\funcao.c
+	"ordem.h"
+
+1709569646 d:\aed\fichas\ficha - 1\ordem\ordem.h
+
+1709569966 source:d:\aed\fichas\ficha - 1\ordem\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ordem.h"
+
+1709569626 source:e:\aed\fichas\ficha - 1\ordem\funcao.c
+	"ordem.h"
+
+1709569646 e:\aed\fichas\ficha - 1\ordem\ordem.h
+
+1709569996 source:e:\aed\fichas\ficha - 1\ordem\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ordem.h"
+

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1716664596 source:d:\universidade\aed\tp_2\main.c
+	"Biblioteca.h"
+
+1716662976 d:\universidade\aed\tp_2\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+
+1716664484 source:d:\universidade\aed\tp_2\funcoes.c
+	"Biblioteca.h"
+
+1716664484 source:f:\universidade\aed\trabalhos praticos\tp_2\funcoes.c
+	"Biblioteca.h"
+
+1716662976 f:\universidade\aed\trabalhos praticos\tp_2\biblioteca.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+
+1716724468 source:f:\universidade\aed\trabalhos praticos\tp_2\main.c
+	"Biblioteca.h"
+

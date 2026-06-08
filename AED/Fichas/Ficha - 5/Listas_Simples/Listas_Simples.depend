@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1715770088 source:e:\universidade\aed\fichas\ficha - 5\listas_simples\funcoes.c
+	"biblioteca.h"
+
+1715768844 e:\universidade\aed\fichas\ficha - 5\listas_simples\biblioteca.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
+1715768844 source:e:\universidade\aed\fichas\ficha - 5\listas_simples\main.c
+	"biblioteca.h"
+
+1715801282 source:g:\universidade\aed\fichas\ficha - 5\listas_simples\funcoes.c
+	"biblioteca.h"
+
+1715801314 g:\universidade\aed\fichas\ficha - 5\listas_simples\biblioteca.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
+1715801296 source:g:\universidade\aed\fichas\ficha - 5\listas_simples\main.c
+	"biblioteca.h"
+
+1715801282 source:c:\users\lieds\onedrive\desktop\my pen\universidade\aed\fichas\ficha - 5\listas_simples\funcoes.c
+	"biblioteca.h"
+
+1715801314 c:\users\lieds\onedrive\desktop\my pen\universidade\aed\fichas\ficha - 5\listas_simples\biblioteca.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
+1715801296 source:c:\users\lieds\onedrive\desktop\my pen\universidade\aed\fichas\ficha - 5\listas_simples\main.c
+	"biblioteca.h"
+

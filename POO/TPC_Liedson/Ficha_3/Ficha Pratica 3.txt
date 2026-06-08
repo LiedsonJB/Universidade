@@ -1,0 +1,62 @@
+//Ficha Pratica 3
+
+Exercicio 3
+a) 1 2 3 4 5 6 7 8 9
+b) 1 3 5 7 9
+c) 10 9 8 7 6 5 4 3 2
+d) 0 1 2 3 4 5 6 7 8 9
+e) 1 2 4 8
+f) 2 4 6 8
+
+Exercicio 4
+Numero de repeticoes
+a) 10
+b) 10
+c) 10
+d) 21
+e) 11
+f) 11
+g) 7
+
+Exercicio 5
+
+int s = 0;
+int i =1;
+
+while(i <= 10){
+	s += i;
+	i++;
+}
+
+Exercicio 6
+
+int n = in.nextInt();
+double x=0;
+double s = 1.0 / (1 + n*n);
+
+while(s > 0.01){
+	n++;
+	x+=s;
+	
+	s = 1.0 / (1 + n*n);
+}
+
+Exercicio 7
+a) 2 4 7 11 16
+b) 4 9 16
+c) 10 7
+
+Exercicio 8
+a) 10
+b) 6
+c) 3
+d) 1
+
+Exercicio 9
+
+for(int i=0; i<height*width; i++){
+	if(i%width == 0)
+		System.out.println();
+
+        System.out.print("*");
+}

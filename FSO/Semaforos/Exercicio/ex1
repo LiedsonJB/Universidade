@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <pthread.h>
+#include <semaphore.h>
+#include <unistd.h>
+
+sem_t Semaforo;
+int n = 0;
+
+void *function(void *args){
+    int i = (int) args;
+
+    sem_wait(&Semaforo);
+
+    if(i == 0){
+        printf("Incrementar n = %d", n++);
+        sem_post(&Semaforo);
+        return NULL;
+    }else{
+        printf("decrementar n = %d", n--);
+        sem_post(&Semaforo);
+        return NULL;
+    }
+
+}
+
+int main(){
+
+    pthread_t Thread[2];
+
+    sem_init(&Semaforo, 0, 1);
+
+
+    for(int i=0; i<2; i++)
+        pthread_create(&Thread[i], NULL, function, (void *)i);
+    
+    for(int i=0; i<2; i++)
+        pthread_join(&Thread[i], NULL);
+
+
+    sem_destroy(&Semaforo);
+
+    return 0;
+}
