@@ -1,0 +1,111 @@
+/* Container do formulário */
+#center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Inputs e textarea */
+#center input,
+#center textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Textarea fixo */
+#center textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Foco nos campos */
+#center input:focus,
+#center textarea:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+  outline: none;
+}
+
+/* Botão */
+#btn {
+  padding: 14px 22px;
+  margin-top: 18px;
+  background: linear-gradient(135deg, #4CAF50, #2e7d32);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+#btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  background: linear-gradient(135deg, #45a049, #1b5e20);
+}
+
+/* Área de listagem */
+#footer {
+  margin: 40px auto;
+  max-width: 650px;
+  padding: 15px;
+}
+
+/* Cada apartamento */
+#views {
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+#views:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+/* Título do apartamento */
+#views p:first-child {
+  font-weight: bold;
+  font-size: 20px;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+/* Descrição */
+#views p:last-child {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Links dentro dos cards */
+#views a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #4CAF50;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#views a:hover {
+  color: #2e7d32;
+  text-decoration: underline;
+}
